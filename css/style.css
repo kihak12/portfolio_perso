@@ -68,6 +68,9 @@
 -----------------------------------*/
 .home {
   background: #5da9e9;
+  background-image: url(../img/background.png);
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
 }
 /*  Projects
 -----------------------------------*/
@@ -176,4 +179,15 @@
   100% {
     transform: scale(1, 1);
   }
+}
+
+#cercle-1 {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 100%;
+    background: white;
+}
+
+.home_background {
+ background-image: url(../img/background.png);
 }

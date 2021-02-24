@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Ma page de test</title>
+
 		<link rel="stylesheet" href="css/style.css">
+
   </head>
   <body>
 		<!--
@@ -98,8 +100,10 @@
     </div>
   </div>
 </div>
+
   </body>
 
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+
 </html>

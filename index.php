@@ -9,6 +9,7 @@
     <meta http-equiv="pragma" content="no-cache" />
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slider.css">
 
   </head>
   <body>
@@ -24,7 +25,8 @@
       <button class="btn_nav home_link">Home</button>
       <button class="btn_nav about_link">About</button>
       <button class="btn_nav contact_link">Contact</button>
-
+      
+      <?php include "pages/projects.html" ?>
 
     </div>
   </div>
@@ -125,5 +127,7 @@
 
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+    <script src="https://kit.fontawesome.com/a56c222f07.js" crossorigin="anonymous"></script>
 
 </html>

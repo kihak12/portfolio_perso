@@ -18,6 +18,7 @@ if (isset($_GET['name']) && isset($_GET['mail']) && isset($_GET['object']) && is
 	  mail("jeremyperret43.pro@gmail.com", $object, $message, $header);
 
 	  header('Location: ../index.php?err=success_message_send');
+	  die();
 	}
 	else {
 	  header('Location: ../index.php?err=bad_text');

@@ -6,7 +6,6 @@
     <title>Perret J&eacute;r&eacute;my</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="pragma" content="no-cache" />
 
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slider.css">

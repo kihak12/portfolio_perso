@@ -385,3 +385,18 @@ input[type=submit]:hover {
   min-width: 146px;
   max-width: 30%;
 }
+
+
+.grid-container-projects {
+  grid-template-columns: auto auto;
+  display: grid;
+}
+
+.grid-item-projects {
+  font-size: 30px;
+}
+
+.grid-item-projects-1 {
+  font-size: 30px;
+  min-width: 290px;
+}

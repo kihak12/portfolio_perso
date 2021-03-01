@@ -6,7 +6,7 @@
   letter-spacing: 0.15em;
   font-size: 12px;
   height: 40px;
-  width: 120px;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -18,14 +18,14 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
   background: linear-gradient(to right bottom, #9e66c6, #6027e1);
   border-radius: 0;
-  display: none;
+  display: block;
   flex-direction: column;
   flex: 0 0 auto;
   font-size: 14px;
-  height: 50em;
+  height: 70vh;
   overflow: hidden;
   transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  width: 850px;
+  min-width: 60%;
   z-index: 1000;
 }
 .walkthrough.show {
@@ -209,7 +209,9 @@
   transform: translateY(-30px);
   transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   width: 132px;
-  left: 42%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
   top: 32px;
 }
 .walkthrough .screens .media.bars .icon {

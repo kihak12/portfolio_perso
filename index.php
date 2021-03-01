@@ -17,7 +17,7 @@
 		///////////////////////////////////-->
 <div class="page__style projects">
   <div class="page__description">
-    <div id="projects">
+    <div class="content" id="projects">
 
       <button class="btn_nav projects_link">Projects</button>
       <button class="btn_nav skills_link">Skills</button>

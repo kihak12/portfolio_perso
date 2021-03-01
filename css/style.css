@@ -8,6 +8,7 @@
 .hide {
   display: none;
 }
+
 .page__style {
   background: #6d326d;
   font-family: OpenSans-Regular, sans-serif;
@@ -73,11 +74,6 @@
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
-/*  Projects
------------------------------------*/
-.projects {
-  background: linear-gradient(to top left , #efceff, #c497da);
-}
 /*  Skills
 -----------------------------------*/
 .skills {
@@ -93,6 +89,13 @@
 .contact {
   background: #c9cdc0;
   background-image: url(../img/background_contact.png);
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+/*  Projects
+-----------------------------------*/
+.projects {
+  background-image: url(../img/background_projects.png), linear-gradient(to top left , #efceff, #c497da);
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
@@ -254,6 +257,7 @@
 
 .padd-0{
   padding-top: 2%;
+  height: auto;
 }
 
 .padd-1{

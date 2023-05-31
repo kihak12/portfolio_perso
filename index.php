@@ -124,7 +124,7 @@
 
   </body>
 
-	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/jquery-3.5.0.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/slider.js"></script>
     <script src="https://kit.fontawesome.com/a56c222f07.js" crossorigin="anonymous"></script>
